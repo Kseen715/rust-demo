@@ -1,8 +1,15 @@
 [package]
 name = "ksi-math-rs"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+description = "Basic math lib for Rust."
+keywords = ["math"]
+repository = "https://github.com/Kseen715/ksi-math-rs.git"
+readme = "README.md"
 
 [dependencies]
+
+[[bin]]
+name = "test"
+path = "src/ksi_math.rs"
