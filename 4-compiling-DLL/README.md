@@ -16,7 +16,6 @@ cd ../ && (cargo build --release)
    Compiling compiling-dll v0.1.0 ({PATH_TO_PROJECT}\rust-demo\4-compiling-DLL)
     Finished `release` profile [optimized] target(s) in 0.65s
 move ..\target\release\demodll.dll build\demodll.dll
-Перемещено файлов:         1.
 gcc -c -Wall -fPIC -std=c11 -O3 -I.  -D _WIN32 main.c  -o build/demodll.obj
 gcc build/demodll.obj -o build/demodll.exe -ldemodll -L./build
 cd build && demodll.exe && cd ../
