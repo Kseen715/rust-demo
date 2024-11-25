@@ -6,7 +6,11 @@
 
 ## Running the code
 
-1. Run `make -B run` in `c-code` directory to compile and run the C code. It will compile the Rust code and then compile the C code using the generated DLL.
+1. Install:
+    - [GCC](https://gcc.gnu.org/install/)
+    - [Make](http://gnuwin32.sourceforge.net/packages/make.htm)
+
+2. Run `make -B run` in `c-code` directory to compile and run the C code. It will compile the Rust code and then compile the C code using the generated DLL.
 
 The output should look like this (YMMV):
 
