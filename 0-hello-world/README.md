@@ -11,7 +11,7 @@
 The output should look like this (YMMV):
 
 ```
-   Compiling hello-world v0.1.0 ({PATH_TO_PROJECT}\rust-demo\0-hello-wolrld)
+   Compiling hello-world v0.1.0 ({PATH_TO_PROJECT}\rust-demo\0-hello-world)
     Finished `release` profile [optimized] target(s) in 0.32s
      Running `target\release\hello-world.exe`
 Hello, world!
