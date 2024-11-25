@@ -10,7 +10,7 @@
 
 The output should look like this (YMMV):
 
-```JSON
+```
 "Windows_NT detected!"
 cd ../ && (cargo build --release)
    Compiling compiling-dll v0.1.0 ({PATH_TO_PROJECT}\rust-demo\4-compiling-DLL)
