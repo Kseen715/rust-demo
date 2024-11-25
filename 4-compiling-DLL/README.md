@@ -66,7 +66,7 @@ double pow_rs(double b, int p);
 #endif // RUST_FUNCTIONS_H
 ```
 
-The C code uses the Rust functions by calling them directly. The Rust functions are declared in the header file `lib.h` and defined in the Rust code `lib.rs`.
+The C code uses the Rust functions by calling them directly. The Rust functions are declared in the header file [`lib.h`](c-code/lib.h) and defined in the Rust code [`lib.rs`](src/lib.rs).
 
 The C code is compiled using the generated DLL by linking against it using the `-ldemodll` flag:
 
